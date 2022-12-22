@@ -10,7 +10,7 @@ const theme = extendTheme({
   components: {
     Link: {
       variants: {
-        primary: ({ colorScheme = "purple" }) => ({
+        primary: ({ colorScheme = "blue" }) => ({
           color: `${colorScheme}.600`,
           _hover: {
             color: `${colorScheme}.800`,

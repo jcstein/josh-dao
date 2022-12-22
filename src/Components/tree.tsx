@@ -7,7 +7,7 @@ export const Tree = () => {
   return (
     <VStack spacing={4} direction="column" align="center" width="90%">
       <Button
-        colorScheme="purple"
+        colorScheme="blue"
         size="lg"
         rightIcon={<FaTwitter />}
         onClick={() => window.open("https://twitter.com", "_blank")}
