@@ -1,4 +1,4 @@
-import { VStack, Flex, Link, Avatar } from "@chakra-ui/react";
+import { VStack, Flex } from "@chakra-ui/react";
 import { Topbuttons } from "./Components/topbuttons";
 import { About } from "./Components/about";
 import { Tree } from "./Components/tree";
@@ -16,9 +16,6 @@ function App() {
         <VStack p="8" width="100%">
           <About />
           <Tree />
-          <Link href="https://joshcs.lol" pt="8" isExternal>
-            <Avatar src="/jcs.png" mx="auto" size="md" />
-          </Link>
         </VStack>
       </Flex>
     </div>
